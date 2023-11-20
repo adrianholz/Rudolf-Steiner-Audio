@@ -1,0 +1,40 @@
+footer {
+  padding: 40px 20px;
+}
+
+footer h3 {
+  font-family: "Antropos";
+  font-size: 1.75rem;
+  color: var(--w1);
+  text-align: center;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: var(--w1);
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+}
+
+footer ul {
+  display: flex;
+  gap: 20px 30px;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+footer p {
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
+  color: var(--w1);
+  margin-top: 80px;
+}
+
+footer p a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--w1);
+}

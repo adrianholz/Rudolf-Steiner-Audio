@@ -1,0 +1,82 @@
+.about-steiner,
+.about-antroposophy {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.about-antroposophy {
+  padding-top: 60px;
+}
+
+.about-steiner h2,
+.about-antroposophy h2 {
+  color: var(--b2);
+  font-family: "Antropos", sans-serif;
+  font-size: 1.75rem;
+}
+
+.about-steiner p,
+.about-antroposophy p {
+  color: var(--b3);
+  font-family: "Mulish", sans-serif;
+  line-height: 2rem;
+  font-weight: 300;
+  max-width: 560px;
+}
+
+.about-steiner div,
+.about-antroposophy div {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-steiner img,
+.about-antroposophy img {
+  border-radius: 5px;
+  box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+  max-height: 448px;
+}
+
+.about-antroposophy img {
+  max-height: unset;
+}
+
+.about-antroposophy > div:nth-child(3) {
+  flex-direction: row-reverse;
+  margin: 40px 0;
+}
+
+.about-antroposophy > div:nth-child(3) span {
+  font-style: italic;
+}
+
+@media (max-width: 980px) {
+  .about-steiner div,
+  .about-antroposophy > div,
+  .about-antroposophy > div:nth-child(3) {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .about-steiner h2,
+  .about-antroposophy h2 {
+    text-align: center;
+  }
+  .about-steiner p {
+    margin-top: 0;
+  }
+  .about-steiner img,
+  .about-antroposophy img {
+    width: 100%;
+    max-width: 400px;
+  }
+  .about-antroposophy > div:nth-child(3) {
+    margin: 40px 0 0 0;
+  }
+  .about-antroposophy {
+    padding-bottom: 20px;
+  }
+}

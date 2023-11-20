@@ -1,0 +1,63 @@
+header {
+  padding: 40px 0;
+  font-family: "Antropos", sans-serif;
+}
+
+header > div {
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 60px;
+  gap: 30px;
+}
+
+header > div span,
+body > div > span {
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: var(--b2);
+}
+
+body > div > span {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header h1 {
+  text-transform: uppercase;
+  color: var(--b1);
+  font-size: 3rem;
+  text-align: center;
+}
+
+header nav ul {
+  display: flex;
+  gap: 20px 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--b2);
+  font-size: 1.25rem;
+}
+
+@media (max-width: 740px) {
+  header {
+    padding: 30px;
+  }
+  header > div {
+    padding-top: 20px;
+    gap: 25px;
+  }
+  header h1 {
+    font-size: 2.5rem;
+  }
+  header nav ul {
+    gap: 20px 30px;
+  }
+}

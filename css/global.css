@@ -98,6 +98,17 @@ h1 {
   margin: 0;
 }
 
+.subtitle {
+  font-family: "Antropos", sans-serif;
+  font-size: 1.75rem;
+  color: var(--w1);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  background: var(--b1);
+}
+
 @media (max-width: 740px) {
   body > div {
     margin: 20px;
